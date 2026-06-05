@@ -1,0 +1,7 @@
+# nizarlahmar.com
+
+Personal portfolio site for Nizar Lahmar — cybersecurity student, blue team / offensive security.
+
+Built with vanilla HTML and CSS. Hosted on Cloudflare Pages.
+
+**Live site:** [nizarlahmar.com](https://nizarlahmar.com)
