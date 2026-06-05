@@ -52,7 +52,7 @@
       color: var(--text);
       font-family: var(--sans);
       font-weight: 300;
-      font-size: 17px;
+      font-size: 21px;
       line-height: 1.75;
       min-height: 100vh;
       transition: background 0.2s, color 0.2s;
@@ -61,14 +61,12 @@
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
-    /* ── Layout ─────────────────────────────────────── */
     .wrap {
       max-width: 880px;
       margin: 0 auto;
       padding: 0 36px;
     }
 
-    /* ── Header ─────────────────────────────────────── */
     header {
       border-bottom: 1px solid var(--border);
       padding: 56px 0 40px;
@@ -82,7 +80,7 @@
 
     .name {
       font-family: var(--mono);
-      font-size: 26px;
+      font-size: 32px;
       font-weight: 500;
       letter-spacing: -0.02em;
       color: var(--text);
@@ -90,14 +88,13 @@
     }
 
     .tagline {
-      font-size: 13px;
+      font-size: 16px;
       color: var(--muted);
       letter-spacing: 0.07em;
       text-transform: uppercase;
       font-family: var(--mono);
     }
 
-    /* ── Theme toggle ────────────────────────────────── */
     .theme-toggle {
       background: var(--toggle-bg);
       border: 1px solid var(--toggle-border);
@@ -105,7 +102,7 @@
       color: var(--muted);
       cursor: pointer;
       font-family: var(--mono);
-      font-size: 11px;
+      font-size: 14px;
       letter-spacing: 0.06em;
       padding: 8px 14px;
       text-transform: uppercase;
@@ -116,7 +113,6 @@
 
     .theme-toggle:hover { color: var(--text); border-color: var(--muted); }
 
-    /* ── Nav ─────────────────────────────────────────── */
     nav {
       display: flex;
       gap: 0;
@@ -133,7 +129,7 @@
       color: var(--muted);
       cursor: pointer;
       font-family: var(--mono);
-      font-size: 13px;
+      font-size: 16px;
       letter-spacing: 0.05em;
       padding: 18px 24px 16px;
       text-transform: uppercase;
@@ -148,21 +144,18 @@
       border-bottom-color: var(--accent);
     }
 
-    /* ── Sections ────────────────────────────────────── */
     .section { display: none; padding: 52px 0 80px; }
     .section.active { display: block; }
 
-    /* ── Section heading ─────────────────────────────── */
     .sec-label {
       font-family: var(--mono);
-      font-size: 12px;
+      font-size: 15px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--accent-dim);
       margin-bottom: 32px;
     }
 
-    /* ── About ───────────────────────────────────────── */
     .about-body {
       max-width: 660px;
     }
@@ -171,7 +164,7 @@
       color: var(--text-body);
       margin-bottom: 18px;
       font-weight: 300;
-      font-size: 17px;
+      font-size: 21px;
     }
 
     .about-body p:last-child { margin-bottom: 0; }
@@ -195,7 +188,7 @@
 
     .meta-label {
       font-family: var(--mono);
-      font-size: 11px;
+      font-size: 14px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--muted);
@@ -203,17 +196,16 @@
     }
 
     .meta-value {
-      font-size: 15px;
+      font-size: 19px;
       color: var(--text);
       font-weight: 400;
     }
 
-    /* ── Skills & Certs ──────────────────────────────── */
     .skill-group { margin-bottom: 40px; }
 
     .skill-group-label {
       font-family: var(--mono);
-      font-size: 12px;
+      font-size: 15px;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--muted);
@@ -234,7 +226,7 @@
       border-radius: 2px;
       color: var(--text-body);
       font-family: var(--mono);
-      font-size: 13px;
+      font-size: 16px;
       padding: 6px 13px;
     }
 
@@ -243,7 +235,6 @@
       color: var(--accent);
     }
 
-    /* ── Projects ────────────────────────────────────── */
     .project {
       border: 1px solid var(--border);
       padding: 28px;
@@ -264,14 +255,14 @@
 
     .project-title {
       font-family: var(--mono);
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 500;
       color: var(--text);
     }
 
     .project-link {
       font-family: var(--mono);
-      font-size: 12px;
+      font-size: 15px;
       color: var(--accent);
       white-space: nowrap;
       flex-shrink: 0;
@@ -279,7 +270,7 @@
 
     .project-desc {
       color: var(--text-desc);
-      font-size: 15px;
+      font-size: 19px;
       margin-bottom: 16px;
       line-height: 1.7;
     }
@@ -292,7 +283,7 @@
 
     .project-tag {
       font-family: var(--mono);
-      font-size: 12px;
+      font-size: 15px;
       color: var(--muted);
       background: var(--bg2);
       border: 1px solid var(--border);
@@ -300,7 +291,6 @@
       padding: 4px 10px;
     }
 
-    /* ── More ────────────────────────────────────────── */
     .more-block {
       border-left: 2px solid var(--border);
       padding-left: 24px;
@@ -309,7 +299,7 @@
 
     .more-block-title {
       font-family: var(--mono);
-      font-size: 14px;
+      font-size: 17px;
       font-weight: 500;
       color: var(--text);
       margin-bottom: 12px;
@@ -317,13 +307,12 @@
 
     .more-block p {
       color: var(--text-desc);
-      font-size: 16px;
+      font-size: 20px;
       line-height: 1.75;
     }
 
     .more-block a { color: var(--accent); }
 
-    /* ── Contact ─────────────────────────────────────── */
     .contact-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -343,14 +332,14 @@
 
     .contact-label {
       font-family: var(--mono);
-      font-size: 11px;
+      font-size: 14px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: var(--muted);
     }
 
     .contact-value {
-      font-size: 15px;
+      font-size: 19px;
       color: var(--accent);
       font-family: var(--mono);
     }
@@ -362,10 +351,11 @@
       align-items: center;
       justify-content: space-between;
       gap: 16px;
+      flex-wrap: wrap;
     }
 
     .resume-block p {
-      font-size: 15px;
+      font-size: 19px;
       color: var(--muted);
     }
 
@@ -374,7 +364,7 @@
       border: 1px solid var(--accent);
       color: var(--accent);
       font-family: var(--mono);
-      font-size: 12px;
+      font-size: 15px;
       letter-spacing: 0.06em;
       text-transform: uppercase;
       padding: 10px 20px;
@@ -391,16 +381,14 @@
       text-decoration: none;
     }
 
-    /* ── Footer ──────────────────────────────────────── */
     footer {
       border-top: 1px solid var(--border);
       padding: 28px 0;
       font-family: var(--mono);
-      font-size: 12px;
+      font-size: 15px;
       color: var(--muted);
     }
 
-    /* ── Responsive ──────────────────────────────────── */
     @media (max-width: 560px) {
       .wrap { padding: 0 20px; }
       header { flex-direction: column; align-items: flex-start; gap: 16px; }
@@ -528,7 +516,7 @@
       <div class="project">
         <div class="project-header">
           <div class="project-title">C2 Framework</div>
-          <a class="project-link" href="https://github.com/" target="_blank" rel="noopener">github ↗</a>
+          <a class="project-link" href="https://github.com/r3aloxl0rd/basic-c2" target="_blank" rel="noopener">github ↗</a>
         </div>
         <div class="project-desc">
           Custom command-and-control framework written in C++17. Implements encrypted communication channels,
@@ -546,7 +534,7 @@
       <div class="project">
         <div class="project-header">
           <div class="project-title">SOC Detection Lab</div>
-          <a class="project-link" href="#" target="_blank" rel="noopener">writeup ↗</a>
+          <a class="project-link" href="https://github.com/r3aloxl0rd/soc-lab" target="_blank" rel="noopener">writeup ↗</a>
         </div>
         <div class="project-desc">
           Multi-VM homelab running Wazuh SIEM with custom detection rules mapped to MITRE ATT&amp;CK.
@@ -603,14 +591,14 @@
         <div class="more-block-title">Philosophy</div>
         <p>
           I write about some philosophical subjects — everything from deep inquiries like questioning the study of philosophy itself, to more practical relevant things like poking holes in our understanding of validation.
-          Published on Substack: <a href="https://mathasophia.substack.com" target="_blank" rel="noopener">mathasophia.substack.com ↗</a>
+          Published on Substack: <a href="https://mathasophia.substack.com" target="_blank" rel="noopener">Mathasophia ↗</a>
         </p>
       </div>
 
       <div class="more-block">
         <div class="more-block-title">Guitar</div>
         <p>
-          I love playing the guitar! Currently learning the Rick & Morty "For the Damaged Coda" song.
+          I love playing the guitar! Currently learning the Rick &amp; Morty "For the Damaged Coda" song.
         </p>
       </div>
 
@@ -654,9 +642,12 @@
 
       <div class="resume-block">
         <p>Current resume(s) — updated 2026</p>
-        <a class="resume-btn" href="/assets/Blue_Team.pdf" target="_blank" rel="noopener">Download BLUE TEAM Resume</a>
-        <a class="resume-btn" href="/assets/Red_Team.pdf" target="_blank" rel="noopener">Download RED TEAM Resume</a>
+        <div class="resume-buttons">
+          <a class="resume-btn" href="/assets/Blue_Team.pdf" target="_blank" rel="noopener">Download BLUE TEAM Resume</a>
+          <a class="resume-btn" href="/assets/Red_Team.pdf" target="_blank" rel="noopener">Download RED TEAM Resume</a>
+        </div>
       </div>
+
     </section>
 
     <footer>
